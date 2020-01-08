@@ -1,0 +1,314 @@
+14:51:06.962 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - Starting application on MS-20190307PPVS with PID 11360 (started by Administrator in E:\Projects\senpure-orange-prot-support)
+14:51:07.056 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+14:51:07.861 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - AbstractFxmlView construction
+14:51:07.862 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Determined fxmlPath: /com/senpure/io/generator/ui/view/main.fxml
+14:51:07.865 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Annotated bundle: i18n/i18n
+14:51:07.865 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Resource bundle: i18n/i18n
+14:51:07.911 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - AbstractFxmlView construction
+14:51:07.912 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Determined fxmlPath: /com/senpure/io/generator/ui/view/animation.fxml
+14:51:07.912 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Annotated bundle: i18n/i18n
+14:51:07.912 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Resource bundle: i18n/i18n
+14:51:08.042 [ForkJoinPool.commonPool-worker-1] INFO  com.senpure.base.util.Spring - regApplicationContext:  class org.springframework.context.annotation.AnnotationConfigApplicationContext
+14:51:08.582 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - Started application in 2.857 seconds (JVM running for 5.371)
+14:51:11.059 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - 行为配置文件路径E:\Projects\senpure-orange-prot-support\target\classes\config\habit.json
+14:51:11.067 [JavaFX Application Thread] DEBUG com.senpure.io.generator.util.TemplateUtil - 模板文件路径E:\Projects\senpure-orange-prot-support\target\classes\template
+14:51:17.984 [JavaFX Application Thread] INFO  com.senpure.io.generator.ui.view.MainController - 增加协议文件
+14:51:30.584 [JavaFX Application Thread] INFO  com.senpure.io.generator.ui.view.MainController - 文件全路径:E:\BaoZou\Plan\5.通信协议\TestPort9000.prot
+14:51:34.333 [JavaFX Application Thread] INFO  com.senpure.io.generator.ui.view.MainController - 正在准备数据
+14:51:34.454 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - CS TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+14:51:34.455 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - SC TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+14:51:34.455 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortReader - E:\BaoZou\Plan\5.通信协议\TestPort9000.prot bean size 0
+14:51:34.455 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 数据准备完成.
+14:51:35.214 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message CSTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\CSTestOneMessage.java
+14:51:35.506 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message SCTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\SCTestOneMessage.java
+14:51:45.934 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 代码生成完成
+14:51:59.656 [JavaFX Application Thread] INFO  com.senpure.io.generator.ui.view.MainController - 正在准备数据
+14:51:59.660 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - CS TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+14:51:59.661 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - SC TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+14:51:59.661 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortReader - E:\BaoZou\Plan\5.通信协议\TestPort9000.prot bean size 0
+14:51:59.661 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 数据准备完成.
+14:51:59.662 [pool-3-thread-1] DEBUG com.senpure.io.generator.util.CheckUtil - obj.name com.senpure.io.CSTestOne  name com.senpure.io.CSTestOne
+14:51:59.663 [pool-3-thread-1] DEBUG com.senpure.io.generator.util.CheckUtil - obj.name com.senpure.io.SCTestOne  name com.senpure.io.SCTestOne
+14:51:59.679 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message CSTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\CSTestOneMessage.java
+14:51:59.702 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message SCTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\SCTestOneMessage.java
+14:52:26.883 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 代码生成完成
+14:52:46.696 [JavaFX Application Thread] INFO  com.senpure.io.generator.ui.view.MainController - 正在准备数据
+14:52:46.698 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - CS TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+14:52:46.698 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - SC TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+14:52:46.699 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortReader - E:\BaoZou\Plan\5.通信协议\TestPort9000.prot bean size 0
+14:52:46.699 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 数据准备完成.
+14:52:46.700 [pool-3-thread-1] DEBUG com.senpure.io.generator.util.CheckUtil - obj.name com.senpure.io.CSTestOne  name com.senpure.io.CSTestOne
+14:52:46.701 [pool-3-thread-1] DEBUG com.senpure.io.generator.util.CheckUtil - obj.name com.senpure.io.SCTestOne  name com.senpure.io.SCTestOne
+14:52:46.708 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message CSTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\CSTestOneMessage.java
+14:52:46.728 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message SCTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\SCTestOneMessage.java
+14:53:03.005 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 代码生成完成
+14:53:58.452 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - Starting application on MS-20190307PPVS with PID 15108 (started by Administrator in E:\Projects\senpure-orange-prot-support)
+14:53:58.456 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+14:53:59.005 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - AbstractFxmlView construction
+14:53:59.006 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Determined fxmlPath: /com/senpure/io/generator/ui/view/main.fxml
+14:53:59.011 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Annotated bundle: i18n/i18n
+14:53:59.012 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Resource bundle: i18n/i18n
+14:53:59.017 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - AbstractFxmlView construction
+14:53:59.018 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Determined fxmlPath: /com/senpure/io/generator/ui/view/animation.fxml
+14:53:59.018 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Annotated bundle: i18n/i18n
+14:53:59.018 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Resource bundle: i18n/i18n
+14:53:59.030 [ForkJoinPool.commonPool-worker-1] INFO  com.senpure.base.util.Spring - regApplicationContext:  class org.springframework.context.annotation.AnnotationConfigApplicationContext
+14:53:59.100 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - Started application in 1.254 seconds (JVM running for 2.49)
+14:54:00.867 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - 行为配置文件路径E:\Projects\senpure-orange-prot-support\target\classes\config\habit.json
+14:54:01.046 [JavaFX Application Thread] DEBUG com.senpure.io.generator.util.TemplateUtil - 模板文件路径E:\Projects\senpure-orange-prot-support\target\classes\template
+14:54:14.292 [JavaFX Application Thread] INFO  com.senpure.io.generator.ui.view.MainController - 正在准备数据
+14:54:14.368 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - CS TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+14:54:14.369 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - SC TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+14:54:14.369 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortReader - E:\BaoZou\Plan\5.通信协议\TestPort9000.prot bean size 0
+14:54:14.369 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 数据准备完成.
+14:54:14.427 [pool-3-thread-1] DEBUG com.senpure.io.generator.util.CheckUtil - obj.name com.senpure.io.CSTestOne  name com.senpure.io.CSTestOne
+14:54:14.427 [pool-3-thread-1] DEBUG com.senpure.io.generator.util.CheckUtil - obj.name com.senpure.io.SCTestOne  name com.senpure.io.SCTestOne
+14:54:14.521 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message CSTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\CSTestOneMessage.java
+14:54:14.611 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message SCTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\SCTestOneMessage.java
+14:54:14.615 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成  port TestPort.java E:\Projects\senpure-orange-prot-support\target\classes\ww\port\TestPort.java
+14:54:14.642 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 代码生成完成
+14:54:24.108 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - save habit
+14:54:24.148 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - save habit success
+14:55:23.073 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - Starting application on MS-20190307PPVS with PID 8424 (started by Administrator in E:\Projects\senpure-orange-prot-support)
+14:55:23.080 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+14:55:23.624 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - AbstractFxmlView construction
+14:55:23.626 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Determined fxmlPath: /com/senpure/io/generator/ui/view/main.fxml
+14:55:23.628 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Annotated bundle: i18n/i18n
+14:55:23.628 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Resource bundle: i18n/i18n
+14:55:23.632 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - AbstractFxmlView construction
+14:55:23.632 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Determined fxmlPath: /com/senpure/io/generator/ui/view/animation.fxml
+14:55:23.633 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Annotated bundle: i18n/i18n
+14:55:23.633 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Resource bundle: i18n/i18n
+14:55:23.651 [ForkJoinPool.commonPool-worker-1] INFO  com.senpure.base.util.Spring - regApplicationContext:  class org.springframework.context.annotation.AnnotationConfigApplicationContext
+14:55:23.731 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - Started application in 1.076 seconds (JVM running for 2.442)
+14:55:25.466 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - 行为配置文件路径E:\Projects\senpure-orange-prot-support\target\classes\config\habit.json
+14:55:25.655 [JavaFX Application Thread] DEBUG com.senpure.io.generator.util.TemplateUtil - 模板文件路径E:\Projects\senpure-orange-prot-support\target\classes\template
+14:55:36.581 [JavaFX Application Thread] INFO  com.senpure.io.generator.ui.view.MainController - 正在准备数据
+14:55:36.670 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - CS TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+14:55:36.671 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - SC TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+14:55:36.671 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortReader - E:\BaoZou\Plan\5.通信协议\TestPort9000.prot bean size 0
+14:55:36.671 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 数据准备完成.
+14:55:36.725 [pool-3-thread-1] DEBUG com.senpure.io.generator.util.CheckUtil - obj.name com.senpure.io.CSTestOne  name com.senpure.io.CSTestOne
+14:55:36.725 [pool-3-thread-1] DEBUG com.senpure.io.generator.util.CheckUtil - obj.name com.senpure.io.SCTestOne  name com.senpure.io.SCTestOne
+14:55:36.825 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message CSTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\CSTestOneMessage.java
+14:55:36.908 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message SCTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\SCTestOneMessage.java
+14:55:36.913 [pool-3-thread-1] WARN  com.senpure.io.orange.executor.PortJavaExecutor - port 存在不能生成 TestPort.java E:\Projects\senpure-orange-prot-support\target\classes\ww\port\TestPort.java
+14:55:36.918 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 代码生成完成
+14:55:39.840 [JavaFX Application Thread] INFO  com.senpure.io.generator.ui.view.MainController - 正在准备数据
+14:55:39.844 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - CS TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+14:55:39.844 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - SC TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+14:55:39.848 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortReader - E:\BaoZou\Plan\5.通信协议\TestPort9000.prot bean size 0
+14:55:39.849 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 数据准备完成.
+14:55:39.852 [pool-3-thread-1] DEBUG com.senpure.io.generator.util.CheckUtil - obj.name com.senpure.io.CSTestOne  name com.senpure.io.CSTestOne
+14:55:39.853 [pool-3-thread-1] DEBUG com.senpure.io.generator.util.CheckUtil - obj.name com.senpure.io.SCTestOne  name com.senpure.io.SCTestOne
+14:55:39.867 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message CSTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\CSTestOneMessage.java
+14:55:39.883 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message SCTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\SCTestOneMessage.java
+14:55:39.887 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 覆盖生成 port TestPort.java E:\Projects\senpure-orange-prot-support\target\classes\ww\port\TestPort.java
+14:55:39.891 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 代码生成完成
+14:55:44.003 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - save habit
+14:55:44.045 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - save habit success
+14:57:16.820 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - Starting application on MS-20190307PPVS with PID 15176 (started by Administrator in E:\Projects\senpure-orange-prot-support)
+14:57:16.825 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+14:57:17.298 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - AbstractFxmlView construction
+14:57:17.298 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Determined fxmlPath: /com/senpure/io/generator/ui/view/main.fxml
+14:57:17.301 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Annotated bundle: i18n/i18n
+14:57:17.301 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Resource bundle: i18n/i18n
+14:57:17.304 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - AbstractFxmlView construction
+14:57:17.304 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Determined fxmlPath: /com/senpure/io/generator/ui/view/animation.fxml
+14:57:17.304 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Annotated bundle: i18n/i18n
+14:57:17.304 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Resource bundle: i18n/i18n
+14:57:17.315 [ForkJoinPool.commonPool-worker-1] INFO  com.senpure.base.util.Spring - regApplicationContext:  class org.springframework.context.annotation.AnnotationConfigApplicationContext
+14:57:17.367 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - Started application in 0.967 seconds (JVM running for 2.004)
+14:57:19.081 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - 行为配置文件路径E:\Projects\senpure-orange-prot-support\target\classes\config\habit.json
+14:57:19.249 [JavaFX Application Thread] DEBUG com.senpure.io.generator.util.TemplateUtil - 模板文件路径E:\Projects\senpure-orange-prot-support\target\classes\template
+14:57:28.694 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - save habit
+14:57:28.734 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - save habit success
+14:57:39.154 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - Starting application on MS-20190307PPVS with PID 15088 (started by Administrator in E:\Projects\senpure-orange-prot-support)
+14:57:39.160 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+14:57:39.675 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - AbstractFxmlView construction
+14:57:39.677 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Determined fxmlPath: /com/senpure/io/generator/ui/view/main.fxml
+14:57:39.680 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Annotated bundle: i18n/i18n
+14:57:39.680 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Resource bundle: i18n/i18n
+14:57:39.684 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - AbstractFxmlView construction
+14:57:39.684 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Determined fxmlPath: /com/senpure/io/generator/ui/view/animation.fxml
+14:57:39.684 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Annotated bundle: i18n/i18n
+14:57:39.684 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Resource bundle: i18n/i18n
+14:57:39.700 [ForkJoinPool.commonPool-worker-1] INFO  com.senpure.base.util.Spring - regApplicationContext:  class org.springframework.context.annotation.AnnotationConfigApplicationContext
+14:57:39.772 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - Started application in 1.147 seconds (JVM running for 2.152)
+14:57:41.521 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - 行为配置文件路径E:\Projects\senpure-orange-prot-support\target\classes\config\habit.json
+14:57:41.679 [JavaFX Application Thread] DEBUG com.senpure.io.generator.util.TemplateUtil - 模板文件路径E:\Projects\senpure-orange-prot-support\target\classes\template
+14:57:44.781 [JavaFX Application Thread] INFO  com.senpure.io.generator.ui.view.MainController - 正在准备数据
+14:57:44.872 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - CS TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+14:57:44.872 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - SC TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+14:57:44.873 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortReader - E:\BaoZou\Plan\5.通信协议\TestPort9000.prot bean size 0
+14:57:44.873 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 数据准备完成.
+14:57:44.929 [pool-3-thread-1] DEBUG com.senpure.io.generator.util.CheckUtil - obj.name com.senpure.io.CSTestOne  name com.senpure.io.CSTestOne
+14:57:44.930 [pool-3-thread-1] DEBUG com.senpure.io.generator.util.CheckUtil - obj.name com.senpure.io.SCTestOne  name com.senpure.io.SCTestOne
+14:57:45.028 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message CSTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\CSTestOneMessage.java
+14:57:45.137 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message SCTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\SCTestOneMessage.java
+14:57:45.140 [pool-3-thread-1] WARN  com.senpure.io.orange.executor.PortJavaExecutor - port 存在不能生成 TestPort.java E:\Projects\senpure-orange-prot-support\target\classes\ww\port\TestPort.java
+14:57:45.143 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 代码生成完成
+14:57:49.609 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - save habit
+14:57:49.654 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - save habit success
+15:19:38.578 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - Starting application on MS-20190307PPVS with PID 14920 (started by Administrator in E:\Projects\senpure-orange-prot-support)
+15:19:38.654 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+15:19:39.699 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - AbstractFxmlView construction
+15:19:39.700 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Determined fxmlPath: /com/senpure/io/generator/ui/view/main.fxml
+15:19:39.702 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Annotated bundle: i18n/i18n
+15:19:39.702 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Resource bundle: i18n/i18n
+15:19:39.706 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - AbstractFxmlView construction
+15:19:39.707 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Determined fxmlPath: /com/senpure/io/generator/ui/view/animation.fxml
+15:19:39.707 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Annotated bundle: i18n/i18n
+15:19:39.707 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Resource bundle: i18n/i18n
+15:19:39.767 [ForkJoinPool.commonPool-worker-1] INFO  com.senpure.base.util.Spring - regApplicationContext:  class org.springframework.context.annotation.AnnotationConfigApplicationContext
+15:19:39.854 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - Started application in 3.707 seconds (JVM running for 8.441)
+15:19:41.756 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - 行为配置文件路径E:\Projects\senpure-orange-prot-support\target\classes\config\habit.json
+15:19:42.085 [JavaFX Application Thread] DEBUG com.senpure.io.generator.util.TemplateUtil - 模板文件路径E:\Projects\senpure-orange-prot-support\target\classes\template
+15:19:46.463 [JavaFX Application Thread] INFO  com.senpure.io.generator.ui.view.MainController - 正在准备数据
+15:19:46.893 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - CS TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+15:19:46.895 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - SC TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+15:19:46.896 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortReader - E:\BaoZou\Plan\5.通信协议\TestPort9000.prot bean size 0
+15:19:46.897 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 数据准备完成.
+15:19:47.181 [pool-3-thread-1] DEBUG com.senpure.io.generator.util.CheckUtil - obj.name com.senpure.io.CSTestOne  name com.senpure.io.CSTestOne
+15:19:47.181 [pool-3-thread-1] DEBUG com.senpure.io.generator.util.CheckUtil - obj.name com.senpure.io.SCTestOne  name com.senpure.io.SCTestOne
+15:19:47.382 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message CSTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\CSTestOneMessage.java
+15:19:47.537 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message SCTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\SCTestOneMessage.java
+15:19:47.540 [pool-3-thread-1] WARN  com.senpure.io.orange.executor.PortJavaExecutor - port 存在不能生成 TestPort.java E:\Projects\senpure-orange-prot-support\target\classes\ww\port\TestPort.java
+15:19:47.544 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 代码生成完成
+15:19:50.600 [JavaFX Application Thread] INFO  com.senpure.io.generator.ui.view.MainController - 正在准备数据
+15:19:50.603 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - CS TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+15:19:50.604 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - SC TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+15:19:50.604 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortReader - E:\BaoZou\Plan\5.通信协议\TestPort9000.prot bean size 0
+15:19:50.605 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 数据准备完成.
+15:19:50.606 [pool-3-thread-1] DEBUG com.senpure.io.generator.util.CheckUtil - obj.name com.senpure.io.CSTestOne  name com.senpure.io.CSTestOne
+15:19:50.606 [pool-3-thread-1] DEBUG com.senpure.io.generator.util.CheckUtil - obj.name com.senpure.io.SCTestOne  name com.senpure.io.SCTestOne
+15:19:50.620 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message CSTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\CSTestOneMessage.java
+15:19:50.646 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message SCTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\SCTestOneMessage.java
+15:19:50.651 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 覆盖生成 port TestPort.java E:\Projects\senpure-orange-prot-support\target\classes\ww\port\TestPort.java
+15:19:50.659 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 代码生成完成
+15:19:52.941 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - save habit
+15:19:52.996 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - save habit success
+15:51:26.788 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - Starting application on MS-20190307PPVS with PID 6712 (started by Administrator in E:\Projects\senpure-orange-prot-support)
+15:51:26.813 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+15:51:27.645 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - AbstractFxmlView construction
+15:51:27.646 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Determined fxmlPath: /com/senpure/io/generator/ui/view/main.fxml
+15:51:27.647 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Annotated bundle: i18n/i18n
+15:51:27.648 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Resource bundle: i18n/i18n
+15:51:27.651 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - AbstractFxmlView construction
+15:51:27.651 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Determined fxmlPath: /com/senpure/io/generator/ui/view/animation.fxml
+15:51:27.651 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Annotated bundle: i18n/i18n
+15:51:27.651 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Resource bundle: i18n/i18n
+15:51:27.676 [ForkJoinPool.commonPool-worker-1] INFO  com.senpure.base.util.Spring - regApplicationContext:  class org.springframework.context.annotation.AnnotationConfigApplicationContext
+15:51:27.730 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - Started application in 1.807 seconds (JVM running for 3.809)
+15:51:29.610 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - 行为配置文件路径E:\Projects\senpure-orange-prot-support\target\classes\config\habit.json
+15:51:29.936 [JavaFX Application Thread] DEBUG com.senpure.io.generator.util.TemplateUtil - 模板文件路径E:\Projects\senpure-orange-prot-support\target\classes\template
+15:51:32.579 [JavaFX Application Thread] INFO  com.senpure.io.generator.ui.view.MainController - 正在准备数据
+15:51:33.050 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - CS TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+15:51:33.050 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - SC TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+15:51:33.051 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortReader - E:\BaoZou\Plan\5.通信协议\TestPort9000.prot bean size 0
+15:51:33.051 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 数据准备完成.
+15:51:33.309 [pool-3-thread-1] DEBUG com.senpure.io.generator.util.CheckUtil - obj.name com.senpure.io.CSTestOne  name com.senpure.io.CSTestOne
+15:51:33.310 [pool-3-thread-1] DEBUG com.senpure.io.generator.util.CheckUtil - obj.name com.senpure.io.SCTestOne  name com.senpure.io.SCTestOne
+15:51:33.540 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message CSTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\CSTestOneMessage.java
+15:51:33.677 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message SCTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\SCTestOneMessage.java
+15:51:33.695 [pool-3-thread-1] WARN  com.senpure.io.orange.executor.PortJavaExecutor - port 存在不能生成 TestPort.java E:\Projects\senpure-orange-prot-support\target\classes\ww\port\TestPort.java
+15:51:33.698 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 代码生成完成
+15:52:31.304 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - save habit
+15:52:31.374 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - save habit success
+15:54:28.130 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - Starting application on MS-20190307PPVS with PID 6468 (started by Administrator in E:\Projects\senpure-orange-prot-support)
+15:54:28.135 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+15:54:28.618 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - AbstractFxmlView construction
+15:54:28.620 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Determined fxmlPath: /com/senpure/io/generator/ui/view/main.fxml
+15:54:28.623 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Annotated bundle: i18n/i18n
+15:54:28.623 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Resource bundle: i18n/i18n
+15:54:28.627 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - AbstractFxmlView construction
+15:54:28.627 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Determined fxmlPath: /com/senpure/io/generator/ui/view/animation.fxml
+15:54:28.627 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Annotated bundle: i18n/i18n
+15:54:28.628 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Resource bundle: i18n/i18n
+15:54:28.663 [ForkJoinPool.commonPool-worker-1] INFO  com.senpure.base.util.Spring - regApplicationContext:  class org.springframework.context.annotation.AnnotationConfigApplicationContext
+15:54:28.725 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - Started application in 0.996 seconds (JVM running for 2.168)
+15:54:30.465 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - 行为配置文件路径E:\Projects\senpure-orange-prot-support\target\classes\config\habit.json
+15:54:30.632 [JavaFX Application Thread] DEBUG com.senpure.io.generator.util.TemplateUtil - 模板文件路径E:\Projects\senpure-orange-prot-support\target\classes\template
+15:54:58.839 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - save habit
+15:54:58.901 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - save habit success
+15:55:17.223 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - Starting application on MS-20190307PPVS with PID 492 (started by Administrator in E:\Projects\senpure-orange-prot-support)
+15:55:17.228 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+15:55:17.724 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - AbstractFxmlView construction
+15:55:17.725 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Determined fxmlPath: /com/senpure/io/generator/ui/view/main.fxml
+15:55:17.728 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Annotated bundle: i18n/i18n
+15:55:17.729 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Resource bundle: i18n/i18n
+15:55:17.733 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - AbstractFxmlView construction
+15:55:17.733 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Determined fxmlPath: /com/senpure/io/generator/ui/view/animation.fxml
+15:55:17.733 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Annotated bundle: i18n/i18n
+15:55:17.734 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Resource bundle: i18n/i18n
+15:55:17.751 [ForkJoinPool.commonPool-worker-1] INFO  com.senpure.base.util.Spring - regApplicationContext:  class org.springframework.context.annotation.AnnotationConfigApplicationContext
+15:55:17.856 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - Started application in 1.009 seconds (JVM running for 2.112)
+15:55:19.581 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - 行为配置文件路径E:\Projects\senpure-orange-prot-support\target\classes\config\habit.json
+15:55:19.742 [JavaFX Application Thread] DEBUG com.senpure.io.generator.util.TemplateUtil - 模板文件路径E:\Projects\senpure-orange-prot-support\target\classes\template
+15:56:24.157 [JavaFX Application Thread] INFO  com.senpure.io.generator.ui.view.MainController - 正在准备数据
+15:56:24.320 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - CS TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+15:56:24.321 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - SC TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+15:56:24.322 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortReader - E:\BaoZou\Plan\5.通信协议\TestPort9000.prot bean size 0
+15:56:24.322 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 数据准备完成.
+15:56:24.465 [pool-3-thread-1] DEBUG com.senpure.io.generator.util.CheckUtil - obj.name com.senpure.io.CSTestOne  name com.senpure.io.CSTestOne
+15:56:24.466 [pool-3-thread-1] DEBUG com.senpure.io.generator.util.CheckUtil - obj.name com.senpure.io.SCTestOne  name com.senpure.io.SCTestOne
+15:56:24.710 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message CSTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\CSTestOneMessage.java
+15:56:24.836 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message SCTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\SCTestOneMessage.java
+15:56:24.842 [pool-3-thread-1] WARN  com.senpure.io.orange.executor.PortJavaExecutor - port 存在不能生成 TestPort.java E:\Projects\senpure-orange-prot-support\target\classes\ww\port\TestPort.java
+15:56:24.845 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 代码生成完成
+15:56:32.585 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - save habit
+15:56:32.644 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - save habit success
+15:58:36.289 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - Starting application on MS-20190307PPVS with PID 4848 (started by Administrator in E:\Projects\senpure-orange-prot-support)
+15:58:36.304 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+15:58:36.762 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - AbstractFxmlView construction
+15:58:36.763 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Determined fxmlPath: /com/senpure/io/generator/ui/view/main.fxml
+15:58:36.765 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Annotated bundle: i18n/i18n
+15:58:36.765 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Resource bundle: i18n/i18n
+15:58:36.770 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - AbstractFxmlView construction
+15:58:36.770 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Determined fxmlPath: /com/senpure/io/generator/ui/view/animation.fxml
+15:58:36.771 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Annotated bundle: i18n/i18n
+15:58:36.771 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Resource bundle: i18n/i18n
+15:58:36.782 [ForkJoinPool.commonPool-worker-1] INFO  com.senpure.base.util.Spring - regApplicationContext:  class org.springframework.context.annotation.AnnotationConfigApplicationContext
+15:58:36.838 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - Started application in 0.908 seconds (JVM running for 1.923)
+15:58:38.563 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - 行为配置文件路径E:\Projects\senpure-orange-prot-support\target\classes\config\habit.json
+15:58:38.724 [JavaFX Application Thread] DEBUG com.senpure.io.generator.util.TemplateUtil - 模板文件路径E:\Projects\senpure-orange-prot-support\target\classes\template
+15:58:42.902 [JavaFX Application Thread] INFO  com.senpure.io.generator.ui.view.MainController - 正在准备数据
+15:58:42.984 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - CS TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+15:58:42.985 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - SC TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+15:58:42.985 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortReader - E:\BaoZou\Plan\5.通信协议\TestPort9000.prot bean size 0
+15:58:42.985 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 数据准备完成.
+15:58:43.036 [pool-3-thread-1] DEBUG com.senpure.io.generator.util.CheckUtil - obj.name com.senpure.io.CSTestOne  name com.senpure.io.CSTestOne
+15:58:43.036 [pool-3-thread-1] DEBUG com.senpure.io.generator.util.CheckUtil - obj.name com.senpure.io.SCTestOne  name com.senpure.io.SCTestOne
+15:58:43.148 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message CSTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\CSTestOneMessage.java
+15:58:43.244 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message SCTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\SCTestOneMessage.java
+15:58:43.248 [pool-3-thread-1] WARN  com.senpure.io.orange.executor.PortJavaExecutor - port 存在不能生成 TestPort.java E:\Projects\senpure-orange-prot-support\target\classes\ww\port\TestPort.java
+15:58:43.254 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 代码生成完成
+15:58:45.291 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - save habit
+15:58:45.349 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - save habit success
+16:00:31.465 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - Starting application on MS-20190307PPVS with PID 6068 (started by Administrator in E:\Projects\senpure-orange-prot-support)
+16:00:31.475 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+16:00:32.029 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - AbstractFxmlView construction
+16:00:32.029 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Determined fxmlPath: /com/senpure/io/generator/ui/view/main.fxml
+16:00:32.031 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Annotated bundle: i18n/i18n
+16:00:32.031 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Resource bundle: i18n/i18n
+16:00:32.037 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - AbstractFxmlView construction
+16:00:32.037 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Determined fxmlPath: /com/senpure/io/generator/ui/view/animation.fxml
+16:00:32.038 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Annotated bundle: i18n/i18n
+16:00:32.038 [ForkJoinPool.commonPool-worker-1] DEBUG de.felixroske.jfxsupport.AbstractFxmlView - Resource bundle: i18n/i18n
+16:00:32.050 [ForkJoinPool.commonPool-worker-1] INFO  com.senpure.base.util.Spring - regApplicationContext:  class org.springframework.context.annotation.AnnotationConfigApplicationContext
+16:00:32.110 [ForkJoinPool.commonPool-worker-1] INFO  org.springframework.boot.SpringApplication - Started application in 1.054 seconds (JVM running for 2.042)
+16:00:33.821 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - 行为配置文件路径E:\Projects\senpure-orange-prot-support\target\classes\config\habit.json
+16:00:33.980 [JavaFX Application Thread] DEBUG com.senpure.io.generator.util.TemplateUtil - 模板文件路径E:\Projects\senpure-orange-prot-support\target\classes\template
+16:00:36.390 [JavaFX Application Thread] INFO  com.senpure.io.generator.ui.view.MainController - 正在准备数据
+16:00:36.471 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - CS TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+16:00:36.471 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortProtocolReader - SC TestOne Field{hasExplain=false, explain='null', fieldType='int32', name='intValue', baseField=true, list=false, capacity=16}
+16:00:36.472 [pool-3-thread-1] DEBUG com.senpure.io.orange.reader.PortReader - E:\BaoZou\Plan\5.通信协议\TestPort9000.prot bean size 0
+16:00:36.472 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 数据准备完成.
+16:00:36.523 [pool-3-thread-1] DEBUG com.senpure.io.generator.util.CheckUtil - obj.name com.senpure.io.CSTestOne  name com.senpure.io.CSTestOne
+16:00:36.523 [pool-3-thread-1] DEBUG com.senpure.io.generator.util.CheckUtil - obj.name com.senpure.io.SCTestOne  name com.senpure.io.SCTestOne
+16:00:36.649 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message CSTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\CSTestOneMessage.java
+16:00:36.730 [pool-3-thread-1] INFO  com.senpure.io.orange.executor.PortJavaExecutor - 生成 message SCTestOneMessage.java E:\Projects\senpure-orange-prot-support\target\classes\ww\protocol\message\SCTestOneMessage.java
+16:00:36.735 [pool-3-thread-1] WARN  com.senpure.io.orange.executor.PortJavaExecutor - port 存在不能生成 TestPort.java E:\Projects\senpure-orange-prot-support\target\classes\ww\port\TestPort.java
+16:00:36.739 [pool-3-thread-1] INFO  com.senpure.io.generator.ui.view.MainController - 代码生成完成
+16:00:39.290 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - save habit
+16:00:39.317 [JavaFX Application Thread] DEBUG com.senpure.io.generator.habit.HabitUtil - save habit success
